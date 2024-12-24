@@ -1,5 +1,5 @@
 **Name:**Durgesh Singh
-Company:CODTECH IT SOLUTIONS
+**Company:**CODTECH IT SOLUTIONS
 ID:
 Domain:JAVA PROGRAMMING
 Duration:December to January 2024-25
