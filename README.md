@@ -17,18 +17,16 @@ The primary objective of the StudentGradeTracker program is to provide a simple 
 - **User Input**:The program prompts the user to enter the student's name and grades for various subjects or assignments.
                  It allows users to input grades until they choose to exit the input loop.
 
-Grade Management:
-The program stores the grades in a list, allowing for dynamic addition of grades.
-It validates the input to ensure that grades are numeric and fall within the acceptable range (0 to 100).
-Calculations:
+- **Grade Management**:The program stores the grades in a list, allowing for dynamic addition of grades.
+                       It validates the input to ensure that grades are numeric and fall within the acceptable range (0 to 100).
+-**Calculations**:
+-**Average Grade**: The program calculates the average of the entered grades.
+-**Letter Grade**: Based on the average, it determines the corresponding letter grade (A, B, C, D, F).
+-**GPA Calculation**: The program computes the GPA by dividing the average grade by 20, assuming a scale where 100 corresponds to a GPA of 5.0.
+  
+-**Output**:The program displays the list of grades, the average grade, the letter grade, and the GPA to the user in a formatted manner.
 
-Average Grade: The program calculates the average of the entered grades.
-Letter Grade: Based on the average, it determines the corresponding letter grade (A, B, C, D, F).
-GPA Calculation: The program computes the GPA by dividing the average grade by 20, assuming a scale where 100 corresponds to a GPA of 5.0.
-Output:
-The program displays the list of grades, the average grade, the letter grade, and the GPA to the user in a formatted manner.
-
-Technologies Used 
+-**Technologies Used**
 
 Programming Language: Java
 Data Structures:
