@@ -1,9 +1,14 @@
 **Name:** DURGESH SINGH
+
 **Company:** CODTECH IT SOLUTIONS
+
 **ID:** CTO8DS543
+
 **Domain:** JAVA PROGRAMMING
+
 **Duration:** December to January 2024-25
-**Mentor:** 
+
+**Mentor:** Neela Santosh Kumar
 
 
 ## Overview of the StudentGradeTracker
