@@ -1,0 +1,71 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+public class StudentGradeTracker {
+    private List<Double> grades;
+    private String studentName;
+    public StudentGradeTracker(String studentName) {
+        this.studentName = studentName;
+        this.grades = new ArrayList<>();
+    }
+    public void addGrade(double grade) {
+        grades.add(grade);
+    }
+    public double calculateAverage() {
+        double sum = 0;
+        for (double grade : grades) {
+            sum += grade;
+        }
+        return grades.size() > 0 ? sum / grades.size() : 0;
+    }
+    public String getLetterGrade(double average) {
+        if (average >= 90) {
+            return "A";
+        } else if (average >= 80) {
+            return "B";
+        } else if (average >= 70) {
+            return "C";
+        } else if (average >= 60) {
+            return "D";
+        } else {
+            return "F";
+        }
+    }
+    public double calculateGPA(double average) {
+        return average / 20; 
+    }
+    public void displayGrades() {
+        System.out.println("Grades for " + studentName + ": " + grades);
+        double average = calculateAverage();
+        String letterGrade = getLetterGrade(average);
+        double gpa = calculateGPA(average);
+        System.out.printf("Average Grade: %.2f\n", average);
+        System.out.println("Letter Grade: " + letterGrade);
+        System.out.printf("GPA: %.2f\n", gpa);
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the student's name: ");
+        String studentName = scanner.nextLine();
+        StudentGradeTracker tracker = new StudentGradeTracker(studentName);
+        while (true) {
+            System.out.print("Enter a grade (or type 'exit' to finish): ");
+            String input = scanner.nextLine();
+            if (input.equalsIgnoreCase("exit")) {
+                break;
+            }
+            try {
+                double grade = Double.parseDouble(input);
+                if (grade < 0 || grade > 100) {
+                    System.out.println("Please enter a valid grade between 0 and 100.");
+                } else {
+                    tracker.addGrade(grade);
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a numeric grade.");
+            }
+        }
+        tracker.displayGrades();
+        scanner.close();
+    }
+}
