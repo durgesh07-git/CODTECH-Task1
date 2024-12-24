@@ -57,7 +57,7 @@ The primary objective of the StudentGradeTracker program is to provide a simple 
                   educational purposes.
 
 ### Conclusion
-The StudentGradeTracker program is a straightforward yet effective tool for managing student grades. It combines essential programming concepts with practical applications, making it a valuable resource for anyone looking to track academic performance. The design choices made in the program promote usability, maintainability, and scalability, ensuring that it can be adapted to meet future needs.
+The StudentGradeTracker program is a straightforward yet effective tool for managing student grades. The design choices made in the program promote usability, maintainability, and scalability, ensuring that it can be adapted to meet future needs.
 
 
 
