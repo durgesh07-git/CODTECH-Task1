@@ -19,6 +19,7 @@ The primary objective of the StudentGradeTracker program is to provide a simple 
 
 - **Grade Management**:The program stores the grades in a list, allowing for dynamic addition of grades.
                        It validates the input to ensure that grades are numeric and fall within the acceptable range (0 to 100).
+  
 -**Calculations**:
 -**Average Grade**: The program calculates the average of the entered grades.
 -**Letter Grade**: Based on the average, it determines the corresponding letter grade (A, B, C, D, F).
