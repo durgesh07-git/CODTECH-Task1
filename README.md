@@ -1,20 +1,21 @@
 **Name**:Durgesh Singh
 **Company**:CODTECH IT SOLUTIONS
-ID:
-Domain:JAVA PROGRAMMING
-Duration:December to January 2024-25
-Mentor:
-Overview of the StudentGradeTracker
+**ID**:
+**Domain**:JAVA PROGRAMMING
+**Duration**:December to January 2024-25
+**Mentor**:
 
-Objective
+
+## Overview of the StudentGradeTracker
+
+## Objective
 
 The primary objective of the StudentGradeTracker program is to provide a simple and interactive way for users to input, manage, and analyze student grades. The program calculates the average grade, determines the corresponding letter grade, and computes the GPA based on the entered grades. This tool can be useful for students, teachers, or anyone interested in tracking academic performance.
 
-Key Activities
+### Key Activities
 
-User Input:
-The program prompts the user to enter the student's name and grades for various subjects or assignments.
-It allows users to input grades until they choose to exit the input loop.
+- **User Input**:The program prompts the user to enter the student's name and grades for various subjects or assignments.
+                 It allows users to input grades until they choose to exit the input loop.
 
 Grade Management:
 The program stores the grades in a list, allowing for dynamic addition of grades.
