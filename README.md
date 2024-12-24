@@ -21,33 +21,32 @@ The primary objective of the StudentGradeTracker program is to provide a simple 
                        It validates the input to ensure that grades are numeric and fall within the acceptable range (0 to 100).
   
  -**Calculations**:
+ 
  -**Average Grade**: The program calculates the average of the entered grades.
  -**Letter Grade**: Based on the average, it determines the corresponding letter grade (A, B, C, D, F).
  -**GPA Calculation**: The program computes the GPA by dividing the average grade by 20, assuming a scale where 100 corresponds to a GPA of 5.0.
   
 -**Output**:The program displays the list of grades, the average grade, the letter grade, and the GPA to the user in a formatted manner.
 
-###Technologies Used
-**Programming Language**: Java Programming
-Data Structures:
-ArrayList for dynamic storage of grades.
-List interface for abstraction and flexibility.
-Input Handling: Scanner class for reading user input from the console.
-Control Structures:
-Loops for repeated input until the user decides to exit.
-Conditional statements for input validation and grade classification.
-Key Insights
-User -Friendly Design: The program is designed to be interactive and user-friendly, providing clear prompts and feedback to the user. This enhances the overall user experience.
+### Technologies Used
+-**Programming Language**: Java Programming
+-**Data Structures**:ArrayList for dynamic storage of grades.
+                List interface for abstraction and flexibility.
+-**Input Handling**: Scanner class for reading user input from the console.
+-**Control Structures**:Loops for repeated input until the user decides to exit.
+                   Conditional statements for input validation and grade classification.
 
-Input Validation: The inclusion of input validation ensures that the program handles erroneous inputs gracefully, preventing crashes and providing informative messages to guide the user.
+### Key Insights
+-**User -Friendly Design**: The program is designed to be interactive and user-friendly, providing clear prompts and feedback to the user. This enhances the overall user experience. 
 
-Modularity: The program is structured in a modular way, with separate methods for different functionalities (e.g., adding grades, calculating averages, determining letter grades). This makes the code easier to read, maintain, and extend.
+-**Input Validation**: The inclusion of input validation ensures that the program handles erroneous inputs gracefully, preventing crashes and providing informative messages to guide the user.
 
-Educational Tool: This program serves as a practical educational tool for students and educators, allowing them to track academic performance and understand grading systems.
+-**Educational Tool**: This program serves as a practical educational tool for students and educators, allowing them to track academic performance and understand grading systems.
 
-Scalability: The program can be easily extended to include additional features, such as saving grades to a file, calculating weighted averages, or handling multiple students, making it a versatile tool for educational purposes.
+-**Scalability**: The program can be easily extended to include additional features, such as saving grades to a file, calculating weighted averages, or handling multiple students, making it a versatile tool for 
+                  educational purposes.
 
-Conclusion
+### Conclusion
 The StudentGradeTracker program is a straightforward yet effective tool for managing student grades. It combines essential programming concepts with practical applications, making it a valuable resource for anyone looking to track academic performance. The design choices made in the program promote usability, maintainability, and scalability, ensuring that it can be adapted to meet future needs.
 
 
