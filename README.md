@@ -13,7 +13,8 @@
 
 ## Overview of the Project
 
-![Screenshot 2024-12-25 083621](https://github.com/user-attachments/assets/e900a065-97d5-4f2b-91ac-44aa063222d3)
+![Screenshot 2024-12-25 083854](https://github.com/user-attachments/assets/59184bbe-e4ee-401e-b28f-8a32708ace1d)
+
 
 ## Project: Java Program on StudentGradeTracker
 
