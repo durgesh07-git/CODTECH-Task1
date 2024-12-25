@@ -11,7 +11,7 @@
 **Mentor:** Neela Santosh Kumar
 
 
-## Overview of the StudentGradeTracker
+## Overview of the Project
 
 ![Screenshot 2024-12-25 083621](https://github.com/user-attachments/assets/e900a065-97d5-4f2b-91ac-44aa063222d3)
 
